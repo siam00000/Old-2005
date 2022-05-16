@@ -1,4 +1,4 @@
-W = '\033[97;1m' 
+ W = '\033[97;1m' 
 R = '\033[91;1m' 
 G = '\033[92;1m' 
 Y = '\033[93;1m' 
@@ -56,13 +56,10 @@ class Main:
 		os.system("clear")
 		
 		print ("""\033[1;92m 
-########    ###    ##     ## #### ##     ## 
-##         ## ##   ##     ##  ##  ###   ### 
-##        ##   ##  ##     ##  ##  #### #### 
-######   ##     ## #########  ##  ## ### ## 
-##       ######### ##     ##  ##  ##     ## 
-##       ##     ## ##     ##  ##  ##     ## 
-##       ##     ## ##     ## #### ##     ## 
+╔══╗╔══╗╔══╗╔═╦═╗
+║══╣╚║║╝║╔╗║║║║║║
+╠══║╔║║╗║╠╣║║║║║║
+╚══╝╚══╝╚╝╚╝╚╩═╩╝
 
 \033[1;90m══════════════════════════════════════════════════
 \033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mFACEBOOK : FAHIM HOSSEN
@@ -114,7 +111,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r\r %s[>_] [BY] : %s/%s -> \033[0;92m [ BY-OK:%s ]- \033[0;91m[BY-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
+			"\r\r %s[>_] [SIAM-CP] : %s/%s -> \033[0;92m [ SIAM-OK:%s ]- \033[0;91m[BY-CP:%s ]"%(B,self.loop, len(self.id), len(self.ok), len(self.cp))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -148,13 +145,13 @@ class Main:
 if len(sys.argv) == 2:
 	if sys.argv[1] == "--info":
 		print("   ___________________        \n  /  _____/\_   _____/        \n /   \  ___ |    __)          \n \    \_\  \|     \ \033[0;96mGALAXY\033[0;97m        \n  \______  /\___  /__\033[0;96mFACEBOOK\033[0;97m_\n         \/     \/_____/_____/")
-		print("\n [*] Author    : MR-HANDSOME")
+		print("\n [*] Author    : SIAM XD 🐸")
 		print(" [*] Team      :  \n")
 		print(" [ Sosial Medi  ] \n")
-		print(" [*] Facebook  : https://facebook.com/mrhandsome ")
-		print(" [*] Instagram : https://instagram.com/mr__handsome__official")
-		print(" [*] YouTube   : https://youtube.com/MR-HANDSOME")
-		exit(" [*] GitHub    : https://github.com/Handsome209")
+		print(" [*] Facebook  : https://facebook.com/naigga.sk ")
+		print(" [*] Instagram : https://instagram.com/mr__siam🐸__official")
+		print(" [*] YouTube   : https://youtube.com/lame")
+		exit(" [*] GitHub    : https://github.com/siam-0000000")
 	else:
 		Main()
 
